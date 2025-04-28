@@ -9,7 +9,7 @@ public class CPUScheduler{
         System.out.print("Enter number of processes: ");
         int n = sc.nextInt();
 
-        if (n == 50) {
+        if (n == 50) { // random set of 50 processes for testing
             System.out.println("Loading 50 predefined test processes...");
 
             Random rand = new Random();
